@@ -1,0 +1,19 @@
+
+Starting --servername theshire.nz --port 5555 --info "Home of the hobbits" --debug --verbose --log-file theshire.log rivendale.nz
+theshire.nz:Launching server theshire.nz...
+theshire.nz:Configuring the server socket...
+Waiting... 0.5
+theshire.nz:Listening for new connections on port 5555
+
+Starting --servername rivendale.nz --port 5556 --info "Elronds House" --debug --verbose --log-file rivendale.log --connect_to_host theshire.nz --connect_to_port 5555
+rivendale.nz:Launching server rivendale.nz...
+Waiting... 0.5
+rivendale.nz:Configuring the server socket...
+rivendale.nz:Connecting to remote server theshire.nz:5555...
+rivendale.nz:Listening for new connections on port 5556
+
+Running client command: --source theshire.nz --destination rivendale.nz --message "First message"
+Waiting... 0.5
+
+Running client command: --source rivendale.nz --destination theshire.nz --message "Second message"
+Waiting... 4

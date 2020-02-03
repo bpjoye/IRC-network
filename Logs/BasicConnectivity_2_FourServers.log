@@ -1,0 +1,84 @@
+
+Starting --servername theshire.nz --port 5665 --info "Home of the hobbits" --debug --verbose --log-file theshire.log rivendale.nz minastirith.nz
+theshire.nz:Launching server theshire.nz...
+Waiting... 0.5
+theshire.nz:Configuring the server socket...
+theshire.nz:Listening for new connections on port 5665
+
+Starting --servername rivendale.nz --port 5777 --info "Elrond's House" --debug --verbose --log-file rivendale.log --connect_to_host theshire.nz --connect_to_port 5665
+rivendale.nz:Launching server rivendale.nz...
+Waiting... 0.5
+rivendale.nz:Configuring the server socket...
+rivendale.nz:Connecting to remote server theshire.nz:5665...
+rivendale.nz:rivendale.nz sent to theshire.nz: SERVER rivendale.nz 1 :"Elrond's House"
+
+rivendale.nz:Listening for new connections on port 5777
+
+Starting --servername minastirith.nz --port 5766 --info "Tower of Guard" --debug --verbose --log-file minastirith.log --connect_to_host theshire.nz --connect_to_port 5665 barad-dur.nz
+minastirith.nz:Launching server minastirith.nz...
+Waiting... 0.5
+minastirith.nz:Configuring the server socket...
+minastirith.nz:Connecting to remote server theshire.nz:5665...
+minastirith.nz:minastirith.nz sent to theshire.nz: SERVER minastirith.nz 1 :"Tower of Guard"
+
+minastirith.nz:Listening for new connections on port 5766
+
+Starting --servername barad-dur.nz --port 2342 --info "the Dark Tower" --debug --verbose --log-file barad-dur.log --connect_to_host minastirith.nz --connect_to_port 5766
+barad-dur.nz:Launching server barad-dur.nz...
+Waiting... 0.5
+barad-dur.nz:Configuring the server socket...
+barad-dur.nz:Connecting to remote server minastirith.nz:5766...
+barad-dur.nz:barad-dur.nz sent to minastirith.nz: SERVER barad-dur.nz 1 :"the Dark Tower"
+
+barad-dur.nz:Listening for new connections on port 2342
+
+Running client command: --source theshire.nz --destination rivendale.nz --message "First message"
+Waiting... 0.5
+
+Running client command: --source rivendale.nz --destination theshire.nz --message "Second message"
+Waiting... 0.5
+
+Running client command: --source minastirith.nz --destination theshire.nz --message "Third message"
+Waiting... 0.5
+
+Running client command: --source theshire.nz --destination minastirith.nz --message "Fourth message"
+Waiting... 0.5
+
+Running client command: --source barad-dur.nz --destination minastirith.nz --message "Fifth message"
+Waiting... 0.5
+
+Running client command: --source minastirith.nz --destination barad-dur.nz --message "Sixth message"
+Waiting... 4
+theshire.nz:Server look_up_Table: 0
+theshire.nz:Server adjacent server table: 0
+theshire.nz:
+
+theshire.nz:
+
+rivendale.nz:Server look_up_Table: 1
+rivendale.nz:I, rivendale.nz, know of server None None None
+rivendale.nz:KEY: theshire.nz
+rivendale.nz:Server adjacent server table: 1
+rivendale.nz:I, rivendale.nz, am adjacent to the server theshire.nz
+rivendale.nz:
+
+rivendale.nz:
+
+minastirith.nz:Server look_up_Table: 1
+minastirith.nz:I, minastirith.nz, know of server None None None
+minastirith.nz:KEY: theshire.nz
+minastirith.nz:Server adjacent server table: 1
+minastirith.nz:I, minastirith.nz, am adjacent to the server theshire.nz
+minastirith.nz:
+
+minastirith.nz:
+
+barad-dur.nz:Server look_up_Table: 1
+barad-dur.nz:I, barad-dur.nz, know of server None None None
+barad-dur.nz:KEY: minastirith.nz
+barad-dur.nz:Server adjacent server table: 1
+barad-dur.nz:I, barad-dur.nz, am adjacent to the server minastirith.nz
+barad-dur.nz:
+
+barad-dur.nz:
+

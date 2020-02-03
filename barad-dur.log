@@ -1,0 +1,39 @@
+2019-12-05 18:20:55,221 - IRCServer[85711] - INFO - Launching server barad-dur.nz...
+2019-12-05 18:20:55,221 - IRCServer[85711] - INFO - Configuring the server socket...
+2019-12-05 18:20:55,229 - IRCServer[85711] - INFO - Connecting to remote server minastirith.nz:5766...
+2019-12-05 18:20:55,238 - IRCServer[85711] - DEBUG - barad-dur.nz sent to minastirith.nz: SERVER barad-dur.nz 1 :"the Dark Tower"
+
+2019-12-05 18:20:55,241 - IRCServer[85711] - DEBUG - Listening for new connections on port 2342
+2019-12-05 18:21:02,237 - IRCServer[85711] - DEBUG - Server look_up_Table: 0
+2019-12-05 18:21:02,238 - IRCServer[85711] - DEBUG - Server adjacent server table: 0
+2019-12-05 18:21:02,241 - IRCServer[85711] - DEBUG - 
+
+2019-12-05 18:21:02,242 - IRCServer[85711] - DEBUG - 
+
+2019-12-05 18:21:02,251 - IRCServer[85711] - DEBUG - Server look_up_Table: 1
+2019-12-05 18:21:02,256 - IRCServer[85711] - DEBUG - I, rivendale.nz, know of server None None None
+2019-12-05 18:21:02,257 - IRCServer[85711] - DEBUG - KEY: theshire.nz
+2019-12-05 18:21:02,257 - IRCServer[85711] - DEBUG - Server adjacent server table: 1
+2019-12-05 18:21:02,258 - IRCServer[85711] - DEBUG - I, rivendale.nz, am adjacent to the server theshire.nz
+2019-12-05 18:21:02,262 - IRCServer[85711] - DEBUG - 
+
+2019-12-05 18:21:02,263 - IRCServer[85711] - DEBUG - 
+
+2019-12-05 18:21:02,266 - IRCServer[85711] - DEBUG - Server look_up_Table: 1
+2019-12-05 18:21:02,266 - IRCServer[85711] - DEBUG - I, minastirith.nz, know of server None None None
+2019-12-05 18:21:02,272 - IRCServer[85711] - DEBUG - KEY: theshire.nz
+2019-12-05 18:21:02,272 - IRCServer[85711] - DEBUG - Server adjacent server table: 1
+2019-12-05 18:21:02,272 - IRCServer[85711] - DEBUG - I, minastirith.nz, am adjacent to the server theshire.nz
+2019-12-05 18:21:02,273 - IRCServer[85711] - DEBUG - 
+
+2019-12-05 18:21:02,273 - IRCServer[85711] - DEBUG - 
+
+2019-12-05 18:21:02,274 - IRCServer[85711] - DEBUG - Server look_up_Table: 1
+2019-12-05 18:21:02,274 - IRCServer[85711] - DEBUG - I, barad-dur.nz, know of server None None None
+2019-12-05 18:21:02,274 - IRCServer[85711] - DEBUG - KEY: minastirith.nz
+2019-12-05 18:21:02,274 - IRCServer[85711] - DEBUG - Server adjacent server table: 1
+2019-12-05 18:21:02,274 - IRCServer[85711] - DEBUG - I, barad-dur.nz, am adjacent to the server minastirith.nz
+2019-12-05 18:21:02,274 - IRCServer[85711] - DEBUG - 
+
+2019-12-05 18:21:02,274 - IRCServer[85711] - DEBUG - 
+

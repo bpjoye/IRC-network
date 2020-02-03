@@ -1,0 +1,95 @@
+
+Starting --servername theshire.nz --port 5674 --info 'Home of the hobbits' --debug --verbose --log-file theshire.log
+theshire.nz:Launching server theshire.nz...
+Waiting... 0.5
+theshire.nz:Configuring the server socket...
+theshire.nz:Listening for new connections on port 5674
+
+Starting --servername rivendale.nz --port 2235 --info 'Elronds House' --debug --verbose --log-file rivendale.log --connect_to_host theshire.nz --connect_to_port 5674
+rivendale.nz:Launching server rivendale.nz...
+Waiting... 0.5
+rivendale.nz:Configuring the server socket...
+rivendale.nz:Connecting to remote server theshire.nz:5674...
+rivendale.nz:rivendale.nz sent to theshire.nz: SERVER rivendale.nz 1 :'Elronds
+
+rivendale.nz:Listening for new connections on port 2235
+
+Starting --servername minastirith.nz --port 7532 --info 'Tower of Guard' --debug --verbose --log-file minastirith.log --connect_to_host theshire.nz --connect_to_port 5674
+minastirith.nz:Launching server minastirith.nz...
+Waiting... 0.5
+minastirith.nz:Configuring the server socket...
+minastirith.nz:Connecting to remote server theshire.nz:5674...
+minastirith.nz:minastirith.nz sent to theshire.nz: SERVER minastirith.nz 1 :'Tower
+
+minastirith.nz:Listening for new connections on port 7532
+
+Starting --serverhost theshire.nz --serverport 5674 --nick samgamgee --hostname windows1 --realname 'Sam Gamgee' --debug --verbose --log-file samgamgee.log
+theshire.nz:Launching client samgamgee@windows1...
+Waiting... 1
+
+Starting --serverhost rivendale.nz --serverport 2235 --nick elrond --hostname windows1 --realname 'Elrond Peredhel' --debug --verbose --log-file elrond.log
+rivendale.nz:Launching client elrond@windows1...
+Waiting... 1
+
+Starting --serverhost theshire.nz --serverport 5674 --nick frodobaggins --hostname BrandyHall --realname 'Frodo Baggins' --debug --verbose --log-file frodobaggins.log
+theshire.nz:Launching client frodobaggins@BrandyHall...
+Waiting... 1
+
+Starting --serverhost theshire.nz --serverport 5674 --nick pippintook --hostname Windows3 --realname 'Peregrin Took' --debug --verbose --log-file pippintook.log
+theshire.nz:Launching client pippintook@Windows3...
+Waiting... 1
+
+Starting --serverhost minastirith.nz --serverport 7532 --nick denethor --hostname windows1 --realname 'Denethor, Steward of Gondor' --debug --verbose --log-file denethor.log
+minastirith.nz:Launching client denethor@windows1...
+Waiting... 1
+
+Starting --serverhost minastirith.nz --serverport 7532 --nick aragorn --hostname windows1 --realname 'Aragorn II Elessar' --debug --verbose --log-file aragorn.log
+minastirith.nz:Launching client aragorn@windows1...
+Waiting... 1
+
+Starting --serverhost theshire.nz --serverport 5674 --nick merrybrandybuck --hostname Windows3 --realname 'Meriadoc Brandybuck' --debug --verbose --log-file merrybrandybuck.log
+theshire.nz:Launching client merrybrandybuck@Windows3...
+Waiting... 1
+
+Running client command: --nick frodobaggins --command QUIT "Leaving for the Undying Lands"
+Waiting... 1
+
+Running client command: --nick elrond --command QUIT
+Waiting... 1
+
+Running client command: --nick denethor --command QUIT "On fire"
+Waiting... 3
+theshire.nz:Server look_up_Table: 2
+theshire.nz:I, theshire.nz, know of server rivendale.nz 1 'Elronds
+theshire.nz:KEY: rivendale.nz
+theshire.nz:I, theshire.nz, know of server minastirith.nz 1 'Tower
+theshire.nz:KEY: minastirith.nz
+theshire.nz:Server adjacent server table: 2
+theshire.nz:I, theshire.nz, am adjacent to the server rivendale.nz
+theshire.nz:I, theshire.nz, am adjacent to the server minastirith.nz
+theshire.nz:
+
+theshire.nz:
+
+rivendale.nz:Server look_up_Table: 2
+rivendale.nz:I, rivendale.nz, know of server theshire.nz 1 'Home
+rivendale.nz:KEY: theshire.nz
+rivendale.nz:I, rivendale.nz, know of server minastirith.nz 2 'Tower
+rivendale.nz:KEY: minastirith.nz
+rivendale.nz:Server adjacent server table: 1
+rivendale.nz:I, rivendale.nz, am adjacent to the server theshire.nz
+rivendale.nz:
+
+rivendale.nz:
+
+minastirith.nz:Server look_up_Table: 2
+minastirith.nz:I, minastirith.nz, know of server theshire.nz 1 'Home
+minastirith.nz:KEY: theshire.nz
+minastirith.nz:I, minastirith.nz, know of server rivendale.nz 2 'Elronds
+minastirith.nz:KEY: rivendale.nz
+minastirith.nz:Server adjacent server table: 1
+minastirith.nz:I, minastirith.nz, am adjacent to the server theshire.nz
+minastirith.nz:
+
+minastirith.nz:
+

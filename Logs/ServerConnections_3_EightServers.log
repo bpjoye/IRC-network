@@ -1,0 +1,243 @@
+
+Starting --servername theshire.nz --port 13412 --info "Home of the hobbits" --debug --verbose --log-file theshire.log
+theshire.nz:Launching server theshire.nz...
+Waiting... 0.5
+theshire.nz:Configuring the server socket...
+theshire.nz:Listening for new connections on port 13412
+
+Starting --servername rivendale.nz --port 34521 --info "Elronds House" --debug --verbose --log-file rivendale.log --connect_to_host theshire.nz --connect_to_port 13412
+rivendale.nz:Launching server rivendale.nz...
+rivendale.nz:Configuring the server socket...
+Waiting... 0.5
+rivendale.nz:Connecting to remote server theshire.nz:13412...
+rivendale.nz:rivendale.nz sent to theshire.nz: SERVER rivendale.nz 1 :"Elronds House"
+
+rivendale.nz:Listening for new connections on port 34521
+
+Starting --servername mirkwood.nz --port 7855 --info "Wood of Greenleaves" --debug --verbose --log-file mirkwood.log --connect_to_host rivendale.nz --connect_to_port 34521
+mirkwood.nz:Launching server mirkwood.nz...
+Waiting... 0.5
+mirkwood.nz:Configuring the server socket...
+mirkwood.nz:Connecting to remote server rivendale.nz:34521...
+mirkwood.nz:mirkwood.nz sent to rivendale.nz: SERVER mirkwood.nz 1 :"Wood of Greenleaves"
+
+mirkwood.nz:Listening for new connections on port 7855
+
+Starting --servername lothlorien.nz --port 7556 --info "The Golden Wood" --debug --verbose --log-file lothlorien.log --connect_to_host mirkwood.nz --connect_to_port 7855
+lothlorien.nz:Launching server lothlorien.nz...
+Waiting... 0.5
+lothlorien.nz:Configuring the server socket...
+lothlorien.nz:Connecting to remote server mirkwood.nz:7855...
+lothlorien.nz:lothlorien.nz sent to mirkwood.nz: SERVER lothlorien.nz 1 :"The Golden Wood"
+
+lothlorien.nz:Listening for new connections on port 7556
+
+Starting --servername isengard.nz --port 6443 --info "Orthanc" --debug --verbose --log-file isengard.log --connect_to_host rivendale.nz --connect_to_port 34521
+isengard.nz:Launching server isengard.nz...
+Waiting... 0.5
+isengard.nz:Configuring the server socket...
+isengard.nz:Connecting to remote server rivendale.nz:34521...
+isengard.nz:isengard.nz sent to rivendale.nz: SERVER isengard.nz 1 :"Orthanc"
+
+isengard.nz:Listening for new connections on port 6443
+
+Starting --servername minastirith.nz --port 6432 --info "Tower of Guard' --debug --verbose --log-file minastirith.log --connect_to_host theshire.nz --connect_to_port 13412
+minastirith.nz:Launching server minastirith.nz...
+Waiting... 0.5
+minastirith.nz:Configuring the server socket...
+minastirith.nz:Connecting to remote server theshire.nz:13412...
+minastirith.nz:minastirith.nz sent to theshire.nz: SERVER minastirith.nz 1 :Tower
+
+minastirith.nz:Listening for new connections on port 6432
+
+Starting --servername osgiliath.nz --port 8558 --info "Citadel of the Stars" --debug --verbose --log-file osgiliath.log --connect_to_host minastirith.nz --connect_to_port 6432
+osgiliath.nz:Launching server osgiliath.nz...
+Waiting... 0.5
+osgiliath.nz:Configuring the server socket...
+osgiliath.nz:Connecting to remote server minastirith.nz:6432...
+osgiliath.nz:osgiliath.nz sent to minastirith.nz: SERVER osgiliath.nz 1 :"Citadel of the Stars"
+
+osgiliath.nz:Listening for new connections on port 8558
+
+Starting --servername barad-dur.nz --port 2363 --info "the Dark Tower" --debug --verbose --log-file barad-dur.log --connect_to_host minastirith.nz --connect_to_port 6432
+barad-dur.nz:Launching server barad-dur.nz...
+Waiting... 4
+barad-dur.nz:Configuring the server socket...
+barad-dur.nz:Connecting to remote server minastirith.nz:6432...
+barad-dur.nz:barad-dur.nz sent to minastirith.nz: SERVER barad-dur.nz 1 :"the Dark Tower"
+
+barad-dur.nz:Listening for new connections on port 2363
+theshire.nz:Server look_up_Table: 7
+theshire.nz:I, theshire.nz, know of server rivendale.nz 1 "Elronds House"
+theshire.nz:KEY: rivendale.nz
+theshire.nz:I, theshire.nz, know of server mirkwood.nz 2 "Wood of Greenleaves"
+theshire.nz:KEY: mirkwood.nz
+theshire.nz:I, theshire.nz, know of server lothlorien.nz 3 "The Golden Wood"
+theshire.nz:KEY: lothlorien.nz
+theshire.nz:I, theshire.nz, know of server isengard.nz 2 "Orthanc"
+theshire.nz:KEY: isengard.nz
+theshire.nz:I, theshire.nz, know of server minastirith.nz 1 Tower
+theshire.nz:KEY: minastirith.nz
+theshire.nz:I, theshire.nz, know of server osgiliath.nz 2 "Citadel of the Stars"
+theshire.nz:KEY: osgiliath.nz
+theshire.nz:I, theshire.nz, know of server barad-dur.nz 2 "the Dark Tower"
+theshire.nz:KEY: barad-dur.nz
+theshire.nz:Server adjacent server table: 2
+theshire.nz:I, theshire.nz, am adjacent to the server rivendale.nz
+theshire.nz:I, theshire.nz, am adjacent to the server minastirith.nz
+theshire.nz:
+
+theshire.nz:
+
+rivendale.nz:Server look_up_Table: 7
+rivendale.nz:I, rivendale.nz, know of server theshire.nz 1 "Home of the hobbits"
+rivendale.nz:KEY: theshire.nz
+rivendale.nz:I, rivendale.nz, know of server mirkwood.nz 1 "Wood of Greenleaves"
+rivendale.nz:KEY: mirkwood.nz
+rivendale.nz:I, rivendale.nz, know of server lothlorien.nz 2 "The Golden Wood"
+rivendale.nz:KEY: lothlorien.nz
+rivendale.nz:I, rivendale.nz, know of server isengard.nz 1 "Orthanc"
+rivendale.nz:KEY: isengard.nz
+rivendale.nz:I, rivendale.nz, know of server minastirith.nz 2 Tower
+rivendale.nz:KEY: minastirith.nz
+rivendale.nz:I, rivendale.nz, know of server osgiliath.nz 3 "Citadel of the Stars"
+rivendale.nz:KEY: osgiliath.nz
+rivendale.nz:I, rivendale.nz, know of server barad-dur.nz 3 "the Dark Tower"
+rivendale.nz:KEY: barad-dur.nz
+rivendale.nz:Server adjacent server table: 3
+rivendale.nz:I, rivendale.nz, am adjacent to the server theshire.nz
+rivendale.nz:I, rivendale.nz, am adjacent to the server mirkwood.nz
+rivendale.nz:I, rivendale.nz, am adjacent to the server isengard.nz
+rivendale.nz:
+
+rivendale.nz:
+
+mirkwood.nz:Server look_up_Table: 7
+mirkwood.nz:I, mirkwood.nz, know of server rivendale.nz 1 "Elronds House"
+mirkwood.nz:KEY: rivendale.nz
+mirkwood.nz:I, mirkwood.nz, know of server theshire.nz 2 "Home of the hobbits"
+mirkwood.nz:KEY: theshire.nz
+mirkwood.nz:I, mirkwood.nz, know of server lothlorien.nz 1 "The Golden Wood"
+mirkwood.nz:KEY: lothlorien.nz
+mirkwood.nz:I, mirkwood.nz, know of server isengard.nz 2 "Orthanc"
+mirkwood.nz:KEY: isengard.nz
+mirkwood.nz:I, mirkwood.nz, know of server minastirith.nz 3 Tower
+mirkwood.nz:KEY: minastirith.nz
+mirkwood.nz:I, mirkwood.nz, know of server osgiliath.nz 4 "Citadel of the Stars"
+mirkwood.nz:KEY: osgiliath.nz
+mirkwood.nz:I, mirkwood.nz, know of server barad-dur.nz 4 "the Dark Tower"
+mirkwood.nz:KEY: barad-dur.nz
+mirkwood.nz:Server adjacent server table: 2
+mirkwood.nz:I, mirkwood.nz, am adjacent to the server rivendale.nz
+mirkwood.nz:I, mirkwood.nz, am adjacent to the server lothlorien.nz
+mirkwood.nz:
+
+mirkwood.nz:
+
+lothlorien.nz:Server look_up_Table: 7
+lothlorien.nz:I, lothlorien.nz, know of server mirkwood.nz 1 "Wood of Greenleaves"
+lothlorien.nz:KEY: mirkwood.nz
+lothlorien.nz:I, lothlorien.nz, know of server rivendale.nz 2 "Elronds House"
+lothlorien.nz:KEY: rivendale.nz
+lothlorien.nz:I, lothlorien.nz, know of server theshire.nz 3 "Home of the hobbits"
+lothlorien.nz:KEY: theshire.nz
+lothlorien.nz:I, lothlorien.nz, know of server isengard.nz 3 "Orthanc"
+lothlorien.nz:KEY: isengard.nz
+lothlorien.nz:I, lothlorien.nz, know of server minastirith.nz 4 Tower
+lothlorien.nz:KEY: minastirith.nz
+lothlorien.nz:I, lothlorien.nz, know of server osgiliath.nz 5 "Citadel of the Stars"
+lothlorien.nz:KEY: osgiliath.nz
+lothlorien.nz:I, lothlorien.nz, know of server barad-dur.nz 5 "the Dark Tower"
+lothlorien.nz:KEY: barad-dur.nz
+lothlorien.nz:Server adjacent server table: 1
+lothlorien.nz:I, lothlorien.nz, am adjacent to the server mirkwood.nz
+lothlorien.nz:
+
+lothlorien.nz:
+
+isengard.nz:Server look_up_Table: 7
+isengard.nz:I, isengard.nz, know of server rivendale.nz 1 "Elronds House"
+isengard.nz:KEY: rivendale.nz
+isengard.nz:I, isengard.nz, know of server theshire.nz 2 "Home of the hobbits"
+isengard.nz:KEY: theshire.nz
+isengard.nz:I, isengard.nz, know of server mirkwood.nz 2 "Wood of Greenleaves"
+isengard.nz:KEY: mirkwood.nz
+isengard.nz:I, isengard.nz, know of server lothlorien.nz 3 "The Golden Wood"
+isengard.nz:KEY: lothlorien.nz
+isengard.nz:I, isengard.nz, know of server minastirith.nz 3 Tower
+isengard.nz:KEY: minastirith.nz
+isengard.nz:I, isengard.nz, know of server osgiliath.nz 4 "Citadel of the Stars"
+isengard.nz:KEY: osgiliath.nz
+isengard.nz:I, isengard.nz, know of server barad-dur.nz 4 "the Dark Tower"
+isengard.nz:KEY: barad-dur.nz
+isengard.nz:Server adjacent server table: 1
+isengard.nz:I, isengard.nz, am adjacent to the server rivendale.nz
+isengard.nz:
+
+isengard.nz:
+
+minastirith.nz:Server look_up_Table: 7
+minastirith.nz:I, minastirith.nz, know of server theshire.nz 1 "Home of the hobbits"
+minastirith.nz:KEY: theshire.nz
+minastirith.nz:I, minastirith.nz, know of server rivendale.nz 2 "Elronds House"
+minastirith.nz:KEY: rivendale.nz
+minastirith.nz:I, minastirith.nz, know of server mirkwood.nz 3 "Wood of Greenleaves"
+minastirith.nz:KEY: mirkwood.nz
+minastirith.nz:I, minastirith.nz, know of server lothlorien.nz 4 "The Golden Wood"
+minastirith.nz:KEY: lothlorien.nz
+minastirith.nz:I, minastirith.nz, know of server isengard.nz 3 "Orthanc"
+minastirith.nz:KEY: isengard.nz
+minastirith.nz:I, minastirith.nz, know of server osgiliath.nz 1 "Citadel of the Stars"
+minastirith.nz:KEY: osgiliath.nz
+minastirith.nz:I, minastirith.nz, know of server barad-dur.nz 1 "the Dark Tower"
+minastirith.nz:KEY: barad-dur.nz
+minastirith.nz:Server adjacent server table: 3
+minastirith.nz:I, minastirith.nz, am adjacent to the server theshire.nz
+minastirith.nz:I, minastirith.nz, am adjacent to the server osgiliath.nz
+minastirith.nz:I, minastirith.nz, am adjacent to the server barad-dur.nz
+minastirith.nz:
+
+minastirith.nz:
+
+osgiliath.nz:Server look_up_Table: 7
+osgiliath.nz:I, osgiliath.nz, know of server minastirith.nz 1 Tower
+osgiliath.nz:KEY: minastirith.nz
+osgiliath.nz:I, osgiliath.nz, know of server theshire.nz 2 "Home of the hobbits"
+osgiliath.nz:KEY: theshire.nz
+osgiliath.nz:I, osgiliath.nz, know of server rivendale.nz 3 "Elronds House"
+osgiliath.nz:KEY: rivendale.nz
+osgiliath.nz:I, osgiliath.nz, know of server mirkwood.nz 4 "Wood of Greenleaves"
+osgiliath.nz:KEY: mirkwood.nz
+osgiliath.nz:I, osgiliath.nz, know of server lothlorien.nz 5 "The Golden Wood"
+osgiliath.nz:KEY: lothlorien.nz
+osgiliath.nz:I, osgiliath.nz, know of server isengard.nz 4 "Orthanc"
+osgiliath.nz:KEY: isengard.nz
+osgiliath.nz:I, osgiliath.nz, know of server barad-dur.nz 2 "the Dark Tower"
+osgiliath.nz:KEY: barad-dur.nz
+osgiliath.nz:Server adjacent server table: 1
+osgiliath.nz:I, osgiliath.nz, am adjacent to the server minastirith.nz
+osgiliath.nz:
+
+osgiliath.nz:
+
+barad-dur.nz:Server look_up_Table: 7
+barad-dur.nz:I, barad-dur.nz, know of server minastirith.nz 1 Tower
+barad-dur.nz:KEY: minastirith.nz
+barad-dur.nz:I, barad-dur.nz, know of server theshire.nz 2 "Home of the hobbits"
+barad-dur.nz:KEY: theshire.nz
+barad-dur.nz:I, barad-dur.nz, know of server rivendale.nz 3 "Elronds House"
+barad-dur.nz:KEY: rivendale.nz
+barad-dur.nz:I, barad-dur.nz, know of server mirkwood.nz 4 "Wood of Greenleaves"
+barad-dur.nz:KEY: mirkwood.nz
+barad-dur.nz:I, barad-dur.nz, know of server lothlorien.nz 5 "The Golden Wood"
+barad-dur.nz:KEY: lothlorien.nz
+barad-dur.nz:I, barad-dur.nz, know of server isengard.nz 4 "Orthanc"
+barad-dur.nz:KEY: isengard.nz
+barad-dur.nz:I, barad-dur.nz, know of server osgiliath.nz 2 "Citadel of the Stars"
+barad-dur.nz:KEY: osgiliath.nz
+barad-dur.nz:Server adjacent server table: 1
+barad-dur.nz:I, barad-dur.nz, am adjacent to the server minastirith.nz
+barad-dur.nz:
+
+barad-dur.nz:
+

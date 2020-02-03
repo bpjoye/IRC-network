@@ -1,0 +1,37 @@
+
+Starting --servername theshire.nz --port 23542 --info 'Home of the hobbits' --debug --verbose --log-file theshire.log
+theshire.nz:Launching server theshire.nz...
+Waiting... 0.5
+theshire.nz:Configuring the server socket...
+theshire.nz:Listening for new connections on port 23542
+
+Starting --servername rivendale.nz --port 6434 --info 'Elrond's House' --debug --verbose --log-file rivendale.log --connect_to_host theshire.nz --connect_to_port 23542
+rivendale.nz:Launching server rivendale.nz...
+Waiting... 4
+rivendale.nz:Configuring the server socket...
+rivendale.nz:Connecting to remote server theshire.nz:23542...
+rivendale.nz:rivendale.nz sent to theshire.nz: SERVER rivendale.nz 1 :'Elrond's
+
+rivendale.nz:Listening for new connections on port 6434
+theshire.nz:theshire.nz broadcasted: :theshire.nz SERVER rivendale.nz 2 :'Elrond's
+
+theshire.nz:theshire.nz sent to rivendale.nz: :theshire.nz SERVER theshire.nz 1 :'Home
+
+theshire.nz:Server look_up_Table: 1
+theshire.nz:I, theshire.nz, know of server rivendale.nz 1 'Elrond's
+theshire.nz:KEY: rivendale.nz
+theshire.nz:Server adjacent server table: 1
+theshire.nz:I, theshire.nz, am adjacent to the server rivendale.nz
+theshire.nz:
+
+theshire.nz:
+
+rivendale.nz:Server look_up_Table: 1
+rivendale.nz:I, rivendale.nz, know of server theshire.nz 1 'Home
+rivendale.nz:KEY: theshire.nz
+rivendale.nz:Server adjacent server table: 1
+rivendale.nz:I, rivendale.nz, am adjacent to the server theshire.nz
+rivendale.nz:
+
+rivendale.nz:
+

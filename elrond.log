@@ -1,0 +1,40 @@
+2019-12-05 19:01:11,922 - IRCServer[88527] - INFO - Launching client elrond@windows1...
+2019-12-05 19:01:12,932 - IRCServer[88527] - INFO - Launching client frodobaggins@BrandyHall...
+2019-12-05 19:01:13,936 - IRCServer[88527] - INFO - Launching client pippintook@Windows3...
+2019-12-05 19:01:14,938 - IRCServer[88527] - INFO - Launching client denethor@windows1...
+2019-12-05 19:01:15,940 - IRCServer[88527] - INFO - Launching client aragorn@windows1...
+2019-12-05 19:01:16,944 - IRCServer[88527] - INFO - Launching client merrybrandybuck@Windows3...
+2019-12-05 19:01:22,953 - IRCServer[88527] - DEBUG - Server look_up_Table: 2
+2019-12-05 19:01:22,954 - IRCServer[88527] - DEBUG - I, theshire.nz, know of server rivendale.nz 1 'Elronds
+2019-12-05 19:01:22,955 - IRCServer[88527] - DEBUG - KEY: rivendale.nz
+2019-12-05 19:01:22,956 - IRCServer[88527] - DEBUG - I, theshire.nz, know of server minastirith.nz 1 'Tower
+2019-12-05 19:01:22,957 - IRCServer[88527] - DEBUG - KEY: minastirith.nz
+2019-12-05 19:01:22,957 - IRCServer[88527] - DEBUG - Server adjacent server table: 2
+2019-12-05 19:01:22,958 - IRCServer[88527] - DEBUG - I, theshire.nz, am adjacent to the server rivendale.nz
+2019-12-05 19:01:22,959 - IRCServer[88527] - DEBUG - I, theshire.nz, am adjacent to the server minastirith.nz
+2019-12-05 19:01:22,960 - IRCServer[88527] - DEBUG - 
+
+2019-12-05 19:01:22,961 - IRCServer[88527] - DEBUG - 
+
+2019-12-05 19:01:22,974 - IRCServer[88527] - DEBUG - Server look_up_Table: 2
+2019-12-05 19:01:22,976 - IRCServer[88527] - DEBUG - I, rivendale.nz, know of server theshire.nz 1 'Home
+2019-12-05 19:01:22,977 - IRCServer[88527] - DEBUG - KEY: theshire.nz
+2019-12-05 19:01:22,980 - IRCServer[88527] - DEBUG - I, rivendale.nz, know of server minastirith.nz 2 'Tower
+2019-12-05 19:01:22,983 - IRCServer[88527] - DEBUG - KEY: minastirith.nz
+2019-12-05 19:01:22,985 - IRCServer[88527] - DEBUG - Server adjacent server table: 1
+2019-12-05 19:01:22,991 - IRCServer[88527] - DEBUG - I, rivendale.nz, am adjacent to the server theshire.nz
+2019-12-05 19:01:22,998 - IRCServer[88527] - DEBUG - 
+
+2019-12-05 19:01:23,006 - IRCServer[88527] - DEBUG - 
+
+2019-12-05 19:01:23,020 - IRCServer[88527] - DEBUG - Server look_up_Table: 2
+2019-12-05 19:01:23,021 - IRCServer[88527] - DEBUG - I, minastirith.nz, know of server theshire.nz 1 'Home
+2019-12-05 19:01:23,024 - IRCServer[88527] - DEBUG - KEY: theshire.nz
+2019-12-05 19:01:23,025 - IRCServer[88527] - DEBUG - I, minastirith.nz, know of server rivendale.nz 2 'Elronds
+2019-12-05 19:01:23,027 - IRCServer[88527] - DEBUG - KEY: rivendale.nz
+2019-12-05 19:01:23,028 - IRCServer[88527] - DEBUG - Server adjacent server table: 1
+2019-12-05 19:01:23,031 - IRCServer[88527] - DEBUG - I, minastirith.nz, am adjacent to the server theshire.nz
+2019-12-05 19:01:23,033 - IRCServer[88527] - DEBUG - 
+
+2019-12-05 19:01:23,035 - IRCServer[88527] - DEBUG - 
+

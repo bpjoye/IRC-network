@@ -1,0 +1,28 @@
+
+Starting --servername theshire.nz --port 7426 --info 'Home of the hobbits' --debug --verbose --log-file theshire.log
+theshire.nz:Launching server theshire.nz...
+Waiting... 0.5
+theshire.nz:Configuring the server socket...
+theshire.nz:Listening for new connections on port 7426
+
+Starting --serverhost theshire.nz --serverport 7426 --nick samgamgee --hostname windows1 --realname 'Sam Gamgee' --debug --verbose --log-file samgamgee.log
+theshire.nz:Launching client samgamgee@windows1...
+Waiting... 0.5
+
+Starting --serverhost theshire.nz --serverport 7426 --nick frodobaggins --hostname BrandyHall --realname 'Frodo Baggins' --debug --verbose --log-file frodobaggins.log
+theshire.nz:Launching client frodobaggins@BrandyHall...
+Waiting... 0.5
+
+Starting --serverhost theshire.nz --serverport 7426 --nick pippintook --hostname Windows3 --realname 'Peregrin Took' --debug --verbose --log-file pippintook.log
+theshire.nz:Launching client pippintook@Windows3...
+Waiting... 0.5
+
+Starting --serverhost theshire.nz --serverport 7426 --nick merrybrandybuck --hostname Windows3 --realname 'Meriadoc Brandybuck' --debug --verbose --log-file merrybrandybuck.log
+theshire.nz:Launching client merrybrandybuck@Windows3...
+Waiting... 4
+theshire.nz:Server look_up_Table: 0
+theshire.nz:Server adjacent server table: 0
+theshire.nz:
+
+theshire.nz:
+

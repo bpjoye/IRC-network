@@ -1,0 +1,186 @@
+2019-11-29 14:06:28,779 - IRCServer[52082] - INFO - Launching server osgiliath.nz...
+2019-11-29 14:06:28,784 - IRCServer[52082] - INFO - Configuring the server socket...
+2019-11-29 14:06:28,789 - IRCServer[52082] - INFO - Connecting to remote server minastirith.nz:6432...
+2019-11-29 14:06:28,795 - IRCServer[52082] - DEBUG - osgiliath.nz sent to minastirith.nz: SERVER osgiliath.nz 1 :"Citadel of the Stars"
+
+2019-11-29 14:06:28,801 - IRCServer[52082] - DEBUG - Listening for new connections on port 8558
+2019-11-29 14:06:29,300 - IRCServer[52082] - INFO - Launching server barad-dur.nz...
+2019-11-29 14:06:29,321 - IRCServer[52082] - INFO - Configuring the server socket...
+2019-11-29 14:06:29,332 - IRCServer[52082] - INFO - Connecting to remote server minastirith.nz:6432...
+2019-11-29 14:06:29,348 - IRCServer[52082] - DEBUG - barad-dur.nz sent to minastirith.nz: SERVER barad-dur.nz 1 :"the Dark Tower"
+
+2019-11-29 14:06:29,350 - IRCServer[52082] - DEBUG - Listening for new connections on port 2363
+2019-11-29 14:06:33,313 - IRCServer[52082] - DEBUG - Server look_up_Table: 7
+2019-11-29 14:06:33,314 - IRCServer[52082] - DEBUG - I, theshire.nz, know of server rivendale.nz 1 "Elronds House"
+2019-11-29 14:06:33,325 - IRCServer[52082] - DEBUG - KEY: rivendale.nz
+2019-11-29 14:06:33,337 - IRCServer[52082] - DEBUG - I, theshire.nz, know of server mirkwood.nz 2 "Wood of Greenleaves"
+2019-11-29 14:06:33,358 - IRCServer[52082] - DEBUG - KEY: mirkwood.nz
+2019-11-29 14:06:33,370 - IRCServer[52082] - DEBUG - I, theshire.nz, know of server lothlorien.nz 3 "The Golden Wood"
+2019-11-29 14:06:33,373 - IRCServer[52082] - DEBUG - KEY: lothlorien.nz
+2019-11-29 14:06:33,391 - IRCServer[52082] - DEBUG - I, theshire.nz, know of server isengard.nz 2 "Orthanc"
+2019-11-29 14:06:33,393 - IRCServer[52082] - DEBUG - KEY: isengard.nz
+2019-11-29 14:06:33,407 - IRCServer[52082] - DEBUG - I, theshire.nz, know of server minastirith.nz 1 Tower
+2019-11-29 14:06:33,418 - IRCServer[52082] - DEBUG - KEY: minastirith.nz
+2019-11-29 14:06:33,427 - IRCServer[52082] - DEBUG - I, theshire.nz, know of server osgiliath.nz 2 "Citadel of the Stars"
+2019-11-29 14:06:33,437 - IRCServer[52082] - DEBUG - KEY: osgiliath.nz
+2019-11-29 14:06:33,458 - IRCServer[52082] - DEBUG - I, theshire.nz, know of server barad-dur.nz 2 "the Dark Tower"
+2019-11-29 14:06:33,461 - IRCServer[52082] - DEBUG - KEY: barad-dur.nz
+2019-11-29 14:06:33,463 - IRCServer[52082] - DEBUG - Server adjacent server table: 2
+2019-11-29 14:06:33,464 - IRCServer[52082] - DEBUG - I, theshire.nz, am adjacent to the server rivendale.nz
+2019-11-29 14:06:33,474 - IRCServer[52082] - DEBUG - I, theshire.nz, am adjacent to the server minastirith.nz
+2019-11-29 14:06:33,484 - IRCServer[52082] - DEBUG - 
+
+2019-11-29 14:06:33,508 - IRCServer[52082] - DEBUG - 
+
+2019-11-29 14:06:33,520 - IRCServer[52082] - DEBUG - Server look_up_Table: 7
+2019-11-29 14:06:33,530 - IRCServer[52082] - DEBUG - I, rivendale.nz, know of server theshire.nz 1 "Home of the hobbits"
+2019-11-29 14:06:33,532 - IRCServer[52082] - DEBUG - KEY: theshire.nz
+2019-11-29 14:06:33,539 - IRCServer[52082] - DEBUG - I, rivendale.nz, know of server mirkwood.nz 1 "Wood of Greenleaves"
+2019-11-29 14:06:33,554 - IRCServer[52082] - DEBUG - KEY: mirkwood.nz
+2019-11-29 14:06:33,562 - IRCServer[52082] - DEBUG - I, rivendale.nz, know of server lothlorien.nz 2 "The Golden Wood"
+2019-11-29 14:06:33,578 - IRCServer[52082] - DEBUG - KEY: lothlorien.nz
+2019-11-29 14:06:33,579 - IRCServer[52082] - DEBUG - I, rivendale.nz, know of server isengard.nz 1 "Orthanc"
+2019-11-29 14:06:33,583 - IRCServer[52082] - DEBUG - KEY: isengard.nz
+2019-11-29 14:06:33,587 - IRCServer[52082] - DEBUG - I, rivendale.nz, know of server minastirith.nz 2 Tower
+2019-11-29 14:06:33,588 - IRCServer[52082] - DEBUG - KEY: minastirith.nz
+2019-11-29 14:06:33,591 - IRCServer[52082] - DEBUG - I, rivendale.nz, know of server osgiliath.nz 3 "Citadel of the Stars"
+2019-11-29 14:06:33,619 - IRCServer[52082] - DEBUG - KEY: osgiliath.nz
+2019-11-29 14:06:33,627 - IRCServer[52082] - DEBUG - I, rivendale.nz, know of server barad-dur.nz 3 "the Dark Tower"
+2019-11-29 14:06:33,642 - IRCServer[52082] - DEBUG - KEY: barad-dur.nz
+2019-11-29 14:06:33,651 - IRCServer[52082] - DEBUG - Server adjacent server table: 3
+2019-11-29 14:06:33,667 - IRCServer[52082] - DEBUG - I, rivendale.nz, am adjacent to the server theshire.nz
+2019-11-29 14:06:33,673 - IRCServer[52082] - DEBUG - I, rivendale.nz, am adjacent to the server mirkwood.nz
+2019-11-29 14:06:33,675 - IRCServer[52082] - DEBUG - I, rivendale.nz, am adjacent to the server isengard.nz
+2019-11-29 14:06:33,686 - IRCServer[52082] - DEBUG - 
+
+2019-11-29 14:06:33,696 - IRCServer[52082] - DEBUG - 
+
+2019-11-29 14:06:33,708 - IRCServer[52082] - DEBUG - Server look_up_Table: 7
+2019-11-29 14:06:33,714 - IRCServer[52082] - DEBUG - I, mirkwood.nz, know of server rivendale.nz 1 "Elronds House"
+2019-11-29 14:06:33,723 - IRCServer[52082] - DEBUG - KEY: rivendale.nz
+2019-11-29 14:06:33,724 - IRCServer[52082] - DEBUG - I, mirkwood.nz, know of server theshire.nz 2 "Home of the hobbits"
+2019-11-29 14:06:33,728 - IRCServer[52082] - DEBUG - KEY: theshire.nz
+2019-11-29 14:06:33,731 - IRCServer[52082] - DEBUG - I, mirkwood.nz, know of server lothlorien.nz 1 "The Golden Wood"
+2019-11-29 14:06:33,734 - IRCServer[52082] - DEBUG - KEY: lothlorien.nz
+2019-11-29 14:06:33,738 - IRCServer[52082] - DEBUG - I, mirkwood.nz, know of server isengard.nz 2 "Orthanc"
+2019-11-29 14:06:33,743 - IRCServer[52082] - DEBUG - KEY: isengard.nz
+2019-11-29 14:06:33,749 - IRCServer[52082] - DEBUG - I, mirkwood.nz, know of server minastirith.nz 3 Tower
+2019-11-29 14:06:33,763 - IRCServer[52082] - DEBUG - KEY: minastirith.nz
+2019-11-29 14:06:33,764 - IRCServer[52082] - DEBUG - I, mirkwood.nz, know of server osgiliath.nz 4 "Citadel of the Stars"
+2019-11-29 14:06:33,772 - IRCServer[52082] - DEBUG - KEY: osgiliath.nz
+2019-11-29 14:06:33,779 - IRCServer[52082] - DEBUG - I, mirkwood.nz, know of server barad-dur.nz 4 "the Dark Tower"
+2019-11-29 14:06:33,795 - IRCServer[52082] - DEBUG - KEY: barad-dur.nz
+2019-11-29 14:06:33,841 - IRCServer[52082] - DEBUG - Server adjacent server table: 2
+2019-11-29 14:06:33,856 - IRCServer[52082] - DEBUG - I, mirkwood.nz, am adjacent to the server rivendale.nz
+2019-11-29 14:06:33,859 - IRCServer[52082] - DEBUG - I, mirkwood.nz, am adjacent to the server lothlorien.nz
+2019-11-29 14:06:33,868 - IRCServer[52082] - DEBUG - 
+
+2019-11-29 14:06:33,874 - IRCServer[52082] - DEBUG - 
+
+2019-11-29 14:06:33,885 - IRCServer[52082] - DEBUG - Server look_up_Table: 7
+2019-11-29 14:06:33,890 - IRCServer[52082] - DEBUG - I, lothlorien.nz, know of server mirkwood.nz 1 "Wood of Greenleaves"
+2019-11-29 14:06:33,907 - IRCServer[52082] - DEBUG - KEY: mirkwood.nz
+2019-11-29 14:06:33,908 - IRCServer[52082] - DEBUG - I, lothlorien.nz, know of server rivendale.nz 2 "Elronds House"
+2019-11-29 14:06:33,912 - IRCServer[52082] - DEBUG - KEY: rivendale.nz
+2019-11-29 14:06:33,916 - IRCServer[52082] - DEBUG - I, lothlorien.nz, know of server theshire.nz 3 "Home of the hobbits"
+2019-11-29 14:06:33,921 - IRCServer[52082] - DEBUG - KEY: theshire.nz
+2019-11-29 14:06:33,922 - IRCServer[52082] - DEBUG - I, lothlorien.nz, know of server isengard.nz 3 "Orthanc"
+2019-11-29 14:06:33,931 - IRCServer[52082] - DEBUG - KEY: isengard.nz
+2019-11-29 14:06:33,933 - IRCServer[52082] - DEBUG - I, lothlorien.nz, know of server minastirith.nz 4 Tower
+2019-11-29 14:06:33,956 - IRCServer[52082] - DEBUG - KEY: minastirith.nz
+2019-11-29 14:06:33,963 - IRCServer[52082] - DEBUG - I, lothlorien.nz, know of server osgiliath.nz 5 "Citadel of the Stars"
+2019-11-29 14:06:33,964 - IRCServer[52082] - DEBUG - KEY: osgiliath.nz
+2019-11-29 14:06:33,972 - IRCServer[52082] - DEBUG - I, lothlorien.nz, know of server barad-dur.nz 5 "the Dark Tower"
+2019-11-29 14:06:33,980 - IRCServer[52082] - DEBUG - KEY: barad-dur.nz
+2019-11-29 14:06:33,995 - IRCServer[52082] - DEBUG - Server adjacent server table: 1
+2019-11-29 14:06:33,996 - IRCServer[52082] - DEBUG - I, lothlorien.nz, am adjacent to the server mirkwood.nz
+2019-11-29 14:06:34,004 - IRCServer[52082] - DEBUG - 
+
+2019-11-29 14:06:34,005 - IRCServer[52082] - DEBUG - 
+
+2019-11-29 14:06:34,019 - IRCServer[52082] - DEBUG - Server look_up_Table: 7
+2019-11-29 14:06:34,020 - IRCServer[52082] - DEBUG - I, isengard.nz, know of server rivendale.nz 1 "Elronds House"
+2019-11-29 14:06:34,022 - IRCServer[52082] - DEBUG - KEY: rivendale.nz
+2019-11-29 14:06:34,028 - IRCServer[52082] - DEBUG - I, isengard.nz, know of server theshire.nz 2 "Home of the hobbits"
+2019-11-29 14:06:34,029 - IRCServer[52082] - DEBUG - KEY: theshire.nz
+2019-11-29 14:06:34,034 - IRCServer[52082] - DEBUG - I, isengard.nz, know of server mirkwood.nz 2 "Wood of Greenleaves"
+2019-11-29 14:06:34,036 - IRCServer[52082] - DEBUG - KEY: mirkwood.nz
+2019-11-29 14:06:34,044 - IRCServer[52082] - DEBUG - I, isengard.nz, know of server lothlorien.nz 3 "The Golden Wood"
+2019-11-29 14:06:34,050 - IRCServer[52082] - DEBUG - KEY: lothlorien.nz
+2019-11-29 14:06:34,052 - IRCServer[52082] - DEBUG - I, isengard.nz, know of server minastirith.nz 3 Tower
+2019-11-29 14:06:34,056 - IRCServer[52082] - DEBUG - KEY: minastirith.nz
+2019-11-29 14:06:34,060 - IRCServer[52082] - DEBUG - I, isengard.nz, know of server osgiliath.nz 4 "Citadel of the Stars"
+2019-11-29 14:06:34,061 - IRCServer[52082] - DEBUG - KEY: osgiliath.nz
+2019-11-29 14:06:34,066 - IRCServer[52082] - DEBUG - I, isengard.nz, know of server barad-dur.nz 4 "the Dark Tower"
+2019-11-29 14:06:34,068 - IRCServer[52082] - DEBUG - KEY: barad-dur.nz
+2019-11-29 14:06:34,073 - IRCServer[52082] - DEBUG - Server adjacent server table: 1
+2019-11-29 14:06:34,074 - IRCServer[52082] - DEBUG - I, isengard.nz, am adjacent to the server rivendale.nz
+2019-11-29 14:06:34,076 - IRCServer[52082] - DEBUG - 
+
+2019-11-29 14:06:34,078 - IRCServer[52082] - DEBUG - 
+
+2019-11-29 14:06:34,085 - IRCServer[52082] - DEBUG - Server look_up_Table: 7
+2019-11-29 14:06:34,087 - IRCServer[52082] - DEBUG - I, minastirith.nz, know of server theshire.nz 1 "Home of the hobbits"
+2019-11-29 14:06:34,087 - IRCServer[52082] - DEBUG - KEY: theshire.nz
+2019-11-29 14:06:34,088 - IRCServer[52082] - DEBUG - I, minastirith.nz, know of server rivendale.nz 2 "Elronds House"
+2019-11-29 14:06:34,090 - IRCServer[52082] - DEBUG - KEY: rivendale.nz
+2019-11-29 14:06:34,092 - IRCServer[52082] - DEBUG - I, minastirith.nz, know of server mirkwood.nz 3 "Wood of Greenleaves"
+2019-11-29 14:06:34,094 - IRCServer[52082] - DEBUG - KEY: mirkwood.nz
+2019-11-29 14:06:34,098 - IRCServer[52082] - DEBUG - I, minastirith.nz, know of server lothlorien.nz 4 "The Golden Wood"
+2019-11-29 14:06:34,103 - IRCServer[52082] - DEBUG - KEY: lothlorien.nz
+2019-11-29 14:06:34,104 - IRCServer[52082] - DEBUG - I, minastirith.nz, know of server isengard.nz 3 "Orthanc"
+2019-11-29 14:06:34,107 - IRCServer[52082] - DEBUG - KEY: isengard.nz
+2019-11-29 14:06:34,108 - IRCServer[52082] - DEBUG - I, minastirith.nz, know of server osgiliath.nz 1 "Citadel of the Stars"
+2019-11-29 14:06:34,112 - IRCServer[52082] - DEBUG - KEY: osgiliath.nz
+2019-11-29 14:06:34,116 - IRCServer[52082] - DEBUG - I, minastirith.nz, know of server barad-dur.nz 1 "the Dark Tower"
+2019-11-29 14:06:34,125 - IRCServer[52082] - DEBUG - KEY: barad-dur.nz
+2019-11-29 14:06:34,125 - IRCServer[52082] - DEBUG - Server adjacent server table: 3
+2019-11-29 14:06:34,130 - IRCServer[52082] - DEBUG - I, minastirith.nz, am adjacent to the server theshire.nz
+2019-11-29 14:06:34,132 - IRCServer[52082] - DEBUG - I, minastirith.nz, am adjacent to the server osgiliath.nz
+2019-11-29 14:06:34,139 - IRCServer[52082] - DEBUG - I, minastirith.nz, am adjacent to the server barad-dur.nz
+2019-11-29 14:06:34,140 - IRCServer[52082] - DEBUG - 
+
+2019-11-29 14:06:34,151 - IRCServer[52082] - DEBUG - 
+
+2019-11-29 14:06:34,157 - IRCServer[52082] - DEBUG - Server look_up_Table: 7
+2019-11-29 14:06:34,158 - IRCServer[52082] - DEBUG - I, osgiliath.nz, know of server minastirith.nz 1 Tower
+2019-11-29 14:06:34,158 - IRCServer[52082] - DEBUG - KEY: minastirith.nz
+2019-11-29 14:06:34,159 - IRCServer[52082] - DEBUG - I, osgiliath.nz, know of server theshire.nz 2 "Home of the hobbits"
+2019-11-29 14:06:34,160 - IRCServer[52082] - DEBUG - KEY: theshire.nz
+2019-11-29 14:06:34,160 - IRCServer[52082] - DEBUG - I, osgiliath.nz, know of server rivendale.nz 3 "Elronds House"
+2019-11-29 14:06:34,160 - IRCServer[52082] - DEBUG - KEY: rivendale.nz
+2019-11-29 14:06:34,161 - IRCServer[52082] - DEBUG - I, osgiliath.nz, know of server mirkwood.nz 4 "Wood of Greenleaves"
+2019-11-29 14:06:34,161 - IRCServer[52082] - DEBUG - KEY: mirkwood.nz
+2019-11-29 14:06:34,161 - IRCServer[52082] - DEBUG - I, osgiliath.nz, know of server lothlorien.nz 5 "The Golden Wood"
+2019-11-29 14:06:34,162 - IRCServer[52082] - DEBUG - KEY: lothlorien.nz
+2019-11-29 14:06:34,162 - IRCServer[52082] - DEBUG - I, osgiliath.nz, know of server isengard.nz 4 "Orthanc"
+2019-11-29 14:06:34,163 - IRCServer[52082] - DEBUG - KEY: isengard.nz
+2019-11-29 14:06:34,163 - IRCServer[52082] - DEBUG - I, osgiliath.nz, know of server barad-dur.nz 2 "the Dark Tower"
+2019-11-29 14:06:34,164 - IRCServer[52082] - DEBUG - KEY: barad-dur.nz
+2019-11-29 14:06:34,164 - IRCServer[52082] - DEBUG - Server adjacent server table: 1
+2019-11-29 14:06:34,165 - IRCServer[52082] - DEBUG - I, osgiliath.nz, am adjacent to the server minastirith.nz
+2019-11-29 14:06:34,166 - IRCServer[52082] - DEBUG - 
+
+2019-11-29 14:06:34,166 - IRCServer[52082] - DEBUG - 
+
+2019-11-29 14:06:34,172 - IRCServer[52082] - DEBUG - Server look_up_Table: 7
+2019-11-29 14:06:34,172 - IRCServer[52082] - DEBUG - I, barad-dur.nz, know of server minastirith.nz 1 Tower
+2019-11-29 14:06:34,173 - IRCServer[52082] - DEBUG - KEY: minastirith.nz
+2019-11-29 14:06:34,173 - IRCServer[52082] - DEBUG - I, barad-dur.nz, know of server theshire.nz 2 "Home of the hobbits"
+2019-11-29 14:06:34,173 - IRCServer[52082] - DEBUG - KEY: theshire.nz
+2019-11-29 14:06:34,173 - IRCServer[52082] - DEBUG - I, barad-dur.nz, know of server rivendale.nz 3 "Elronds House"
+2019-11-29 14:06:34,174 - IRCServer[52082] - DEBUG - KEY: rivendale.nz
+2019-11-29 14:06:34,174 - IRCServer[52082] - DEBUG - I, barad-dur.nz, know of server mirkwood.nz 4 "Wood of Greenleaves"
+2019-11-29 14:06:34,174 - IRCServer[52082] - DEBUG - KEY: mirkwood.nz
+2019-11-29 14:06:34,175 - IRCServer[52082] - DEBUG - I, barad-dur.nz, know of server lothlorien.nz 5 "The Golden Wood"
+2019-11-29 14:06:34,175 - IRCServer[52082] - DEBUG - KEY: lothlorien.nz
+2019-11-29 14:06:34,175 - IRCServer[52082] - DEBUG - I, barad-dur.nz, know of server isengard.nz 4 "Orthanc"
+2019-11-29 14:06:34,175 - IRCServer[52082] - DEBUG - KEY: isengard.nz
+2019-11-29 14:06:34,175 - IRCServer[52082] - DEBUG - I, barad-dur.nz, know of server osgiliath.nz 2 "Citadel of the Stars"
+2019-11-29 14:06:34,176 - IRCServer[52082] - DEBUG - KEY: osgiliath.nz
+2019-11-29 14:06:34,176 - IRCServer[52082] - DEBUG - Server adjacent server table: 1
+2019-11-29 14:06:34,176 - IRCServer[52082] - DEBUG - I, barad-dur.nz, am adjacent to the server minastirith.nz
+2019-11-29 14:06:34,176 - IRCServer[52082] - DEBUG - 
+
+2019-11-29 14:06:34,177 - IRCServer[52082] - DEBUG - 
+

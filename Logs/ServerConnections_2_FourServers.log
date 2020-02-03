@@ -1,0 +1,132 @@
+
+Starting --servername theshire.nz --port 34243 --info 'Home of the hobbits' --debug --verbose --log-file theshire.log
+theshire.nz:Launching server theshire.nz...
+theshire.nz:Configuring the server socket...
+Waiting... 0.5
+theshire.nz:Listening for new connections on port 34243
+
+Starting --servername rivendale.nz --port 4633 --info 'Elrond's House' --debug --verbose --log-file rivendale.log --connect_to_host theshire.nz --connect_to_port 34243
+rivendale.nz:Launching server rivendale.nz...
+Waiting... 0.5
+rivendale.nz:Configuring the server socket...
+rivendale.nz:Connecting to remote server theshire.nz:34243...
+rivendale.nz:rivendale.nz sent to theshire.nz: SERVER rivendale.nz 1 :'Elrond's
+
+rivendale.nz:Listening for new connections on port 4633
+theshire.nz:theshire.nz is handling: SERVER ['rivendale.nz', '1', "'Elrond's"]
+theshire.nz:theshire.nz server details: rivendale.nz 1 'Elrond's rivendale.nz
+theshire.nz:theshire.nz broadcasted: :theshire.nz SERVER rivendale.nz 2 :'Elrond's
+
+theshire.nz:theshire.nz sent to rivendale.nz: :theshire.nz SERVER theshire.nz 1 :'Home
+
+rivendale.nz:rivendale.nz is handling: theshire.nz SERVER ['theshire.nz', '1', "'Home"]
+
+Starting --servername minastirith.nz --port 45234 --info 'Tower of Guard' --debug --verbose --log-file minastirith.log --connect_to_host theshire.nz --connect_to_port 34243
+minastirith.nz:Launching server minastirith.nz...
+Waiting... 0.5
+minastirith.nz:Configuring the server socket...
+minastirith.nz:Connecting to remote server theshire.nz:34243...
+minastirith.nz:minastirith.nz sent to theshire.nz: SERVER minastirith.nz 1 :'Tower
+
+minastirith.nz:Listening for new connections on port 45234
+theshire.nz:theshire.nz is handling: SERVER ['minastirith.nz', '1', "'Tower"]
+theshire.nz:theshire.nz server details: minastirith.nz 1 'Tower minastirith.nz
+theshire.nz:theshire.nz broadcasted: :theshire.nz SERVER minastirith.nz 2 :'Tower
+
+theshire.nz:theshire.nz sent to minastirith.nz: :theshire.nz SERVER theshire.nz 1 :'Home
+
+theshire.nz:theshire.nz sent to minastirith.nz: :theshire.nz SERVER rivendale.nz 2 :'Elrond's
+
+rivendale.nz:rivendale.nz is handling: theshire.nz SERVER ['minastirith.nz', '2', "'Tower"]
+minastirith.nz:minastirith.nz is handling: theshire.nz SERVER ['theshire.nz', '1', "'Home"]
+rivendale.nz:rivendale.nz broadcasted: :rivendale.nz SERVER minastirith.nz 3 :'Tower
+
+minastirith.nz:minastirith.nz is handling: theshire.nz SERVER ['rivendale.nz', '2', "'Elrond's"]
+minastirith.nz:minastirith.nz broadcasted: :minastirith.nz SERVER rivendale.nz 3 :'Elrond's
+
+
+Starting --servername barad-dur.nz --port 1231 --info 'the Dark Tower' --debug --verbose --log-file barad-dur.log --connect_to_host minastirith.nz --connect_to_port 45234
+barad-dur.nz:Launching server barad-dur.nz...
+Waiting... 4
+barad-dur.nz:Configuring the server socket...
+barad-dur.nz:Connecting to remote server minastirith.nz:45234...
+barad-dur.nz:barad-dur.nz sent to minastirith.nz: SERVER barad-dur.nz 1 :'the
+
+barad-dur.nz:Listening for new connections on port 1231
+minastirith.nz:minastirith.nz is handling: SERVER ['barad-dur.nz', '1', "'the"]
+minastirith.nz:minastirith.nz server details: barad-dur.nz 1 'the barad-dur.nz
+minastirith.nz:minastirith.nz broadcasted: :minastirith.nz SERVER barad-dur.nz 2 :'the
+
+minastirith.nz:minastirith.nz sent to barad-dur.nz: :minastirith.nz SERVER minastirith.nz 1 :'Tower
+
+minastirith.nz:minastirith.nz sent to barad-dur.nz: :minastirith.nz SERVER None 2 :'Home
+
+minastirith.nz:minastirith.nz sent to barad-dur.nz: :minastirith.nz SERVER rivendale.nz 3 :'Elrond's
+
+theshire.nz:theshire.nz is handling: minastirith.nz SERVER ['barad-dur.nz', '2', "'the"]
+barad-dur.nz:barad-dur.nz is handling: minastirith.nz SERVER ['minastirith.nz', '1', "'Tower"]
+theshire.nz:theshire.nz broadcasted: :theshire.nz SERVER barad-dur.nz 3 :'the
+
+barad-dur.nz:barad-dur.nz is handling: minastirith.nz SERVER ['None', '2', "'Home"]
+barad-dur.nz:barad-dur.nz broadcasted: :barad-dur.nz SERVER None 3 :'Home
+
+rivendale.nz:rivendale.nz is handling: theshire.nz SERVER ['barad-dur.nz', '3', "'the"]
+barad-dur.nz:barad-dur.nz is handling: minastirith.nz SERVER ['rivendale.nz', '3', "'Elrond's"]
+rivendale.nz:rivendale.nz broadcasted: :rivendale.nz SERVER barad-dur.nz 4 :'the
+
+barad-dur.nz:barad-dur.nz broadcasted: :barad-dur.nz SERVER rivendale.nz 4 :'Elrond's
+
+theshire.nz:Server look_up_Table: 3
+theshire.nz:I, theshire.nz, know of server rivendale.nz 1 'Elrond's
+theshire.nz:KEY: rivendale.nz
+theshire.nz:I, theshire.nz, know of server minastirith.nz 1 'Tower
+theshire.nz:KEY: minastirith.nz
+theshire.nz:I, theshire.nz, know of server barad-dur.nz 2 'the
+theshire.nz:KEY: barad-dur.nz
+theshire.nz:Server adjacent server table: 2
+theshire.nz:I, theshire.nz, am adjacent to the server rivendale.nz
+theshire.nz:I, theshire.nz, am adjacent to the server minastirith.nz
+theshire.nz:
+
+theshire.nz:
+
+rivendale.nz:Server look_up_Table: 3
+rivendale.nz:I, rivendale.nz, know of server None 1 'Home
+rivendale.nz:KEY: theshire.nz
+rivendale.nz:I, rivendale.nz, know of server minastirith.nz 2 'Tower
+rivendale.nz:KEY: minastirith.nz
+rivendale.nz:I, rivendale.nz, know of server barad-dur.nz 3 'the
+rivendale.nz:KEY: barad-dur.nz
+rivendale.nz:Server adjacent server table: 1
+rivendale.nz:I, rivendale.nz, am adjacent to the server theshire.nz
+rivendale.nz:
+
+rivendale.nz:
+
+minastirith.nz:Server look_up_Table: 3
+minastirith.nz:I, minastirith.nz, know of server None 1 'Home
+minastirith.nz:KEY: theshire.nz
+minastirith.nz:I, minastirith.nz, know of server rivendale.nz 2 'Elrond's
+minastirith.nz:KEY: rivendale.nz
+minastirith.nz:I, minastirith.nz, know of server barad-dur.nz 1 'the
+minastirith.nz:KEY: barad-dur.nz
+minastirith.nz:Server adjacent server table: 2
+minastirith.nz:I, minastirith.nz, am adjacent to the server theshire.nz
+minastirith.nz:I, minastirith.nz, am adjacent to the server barad-dur.nz
+minastirith.nz:
+
+minastirith.nz:
+
+barad-dur.nz:Server look_up_Table: 3
+barad-dur.nz:I, barad-dur.nz, know of server None 1 'Tower
+barad-dur.nz:KEY: minastirith.nz
+barad-dur.nz:I, barad-dur.nz, know of server None 2 'Home
+barad-dur.nz:KEY: None
+barad-dur.nz:I, barad-dur.nz, know of server rivendale.nz 3 'Elrond's
+barad-dur.nz:KEY: rivendale.nz
+barad-dur.nz:Server adjacent server table: 1
+barad-dur.nz:I, barad-dur.nz, am adjacent to the server minastirith.nz
+barad-dur.nz:
+
+barad-dur.nz:
+
